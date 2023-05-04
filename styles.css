@@ -1,0 +1,156 @@
+/* add those lines at the top of your css file: */
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.bg-dark-blue {
+	background-color: #1f2937;
+}
+
+.bg-light-blue {
+	background-color: #3882f6;
+}
+
+button {
+	padding: 8px;
+	border-radius: 10px;
+	color: white;
+	border-style: none;
+	cursor: pointer;
+}
+
+.hero-main {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero-secondary,
+.header-text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.logo {
+	font-size: 24px;
+}
+
+.hero-main,
+.logo {
+	color: #f9faf8;
+}
+
+.info h2 {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.quote-section {
+	background-color: #e5e7eb;
+}
+
+.info h2,
+p.quote {
+	color: #1f2937;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex {
+	display: flex;
+}
+
+.px-1 {
+	padding-left: 12rem;
+	padding-right: 12rem;
+}
+
+.px-2 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.py-1 {
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
+}
+
+.py-2 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.py-3 {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.top-header,
+.bottom-header,
+.cards {
+	justify-content: space-between;
+}
+
+.bottom-header {
+	align-items: center;
+	gap: 3rem;
+	padding-top: 2rem;
+}
+
+p.hero-secondary {
+	width: 85%;
+}
+
+.header-right,
+.header-left {
+	flex: 1;
+}
+
+.header-right img {
+	width: 100%;
+	height: auto;
+}
+
+.nav-links {
+	list-style: none;
+	gap: 8px;
+}
+
+.info {
+	align-items: center;
+}
+
+.cards {
+	justify-content: space-between;
+	width: 100%;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex: 1;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.card p {
+	text-align: center;
+}
+
+.card img {
+	height: 7rem;
+	width: 7rem;
+	border: 1px #3882f6 solid;
+	border-radius: 10px;
+}
