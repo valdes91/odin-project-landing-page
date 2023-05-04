@@ -55,6 +55,7 @@ button {
 
 .quote-section {
 	background-color: #e5e7eb;
+	align-items: center;
 }
 
 .info h2,
@@ -81,6 +82,11 @@ p.quote {
 	padding-right: 1rem;
 }
 
+.px-cta {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
 .py-1 {
 	padding-top: 3.5rem;
 	padding-bottom: 3.5rem;
@@ -94,6 +100,12 @@ p.quote {
 .py-3 {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
+}
+
+.py-quotes,
+.py-cta {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 .top-header,
@@ -132,7 +144,6 @@ p.hero-secondary {
 }
 
 .cards {
-	justify-content: space-between;
 	width: 100%;
 	gap: 1.5rem;
 	flex-wrap: wrap;
@@ -148,9 +159,50 @@ p.hero-secondary {
 	text-align: center;
 }
 
-.card img {
+.card div.img {
 	height: 7rem;
 	width: 7rem;
 	border: 1px #3882f6 solid;
 	border-radius: 10px;
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	width: 75%;
+	font-weight: 300;
+}
+
+p.author {
+	font-weight: bold;
+	width: 75%;
+	text-align: end;
+}
+
+.cta {
+	justify-content: center;
+	align-items: center;
+}
+
+.cta-body {
+	width: 100%;
+	color: #e5e7eb;
+	justify-content: center;
+	align-items: center;
+	gap: 15rem;
+	flex-wrap: wrap;
+}
+
+.right-cta button {
+	border: 1px #e5e7eb solid;
+}
+
+.left-cta p {
+	padding-top: 0.25rem;
+}
+
+.footer {
+	color: #f9faf8;
+	text-align: center;
+	padding: 2rem;
 }
